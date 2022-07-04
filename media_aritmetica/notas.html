@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+ <html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="notas.css">
+        <script src="notas.js"></script>
+        
+    </head>
+<body>
+ <div class="tittle">
+    <h1>Calculo de média</h1>
+ </div>
+<div class="paper">
+ <div class="instrucao">
+    <h2> Digite suas notas</h2> 
+    <p>Digite sua nota de 0 á 10 nos campos abaixo</p>
+ </div>
+    <ul>
+      <li>Nota acima de 5 será Aprovado</li>
+      <li>Nota acima de 4.5 ou igual a 5 estará em Exame</li>
+      <li>Nota abaixo de 4.5 será Reprovado</li>
+    </ul>
+    <div class="note">
+      <p>Nota 1</p> 
+        <input type="number" id="nota1">
+      <p>Nota 2</p>
+        <input type="number" id="nota2">
+      <p>Nota 3</p>
+        <input type="number" id="nota3">
+      <p>Nota 4</p>
+        <input type="number"id="nota4"> <br>
+        <button type="submit" onclick="calcular()">calcular</button> 
+        <button type="submit" onclick="clearIUnputFields()">limpar</button>
+    </div>
+       <div class="resultado">
+          <strong>Resultado</strong>
+          <h4 id="Resultado"></h4>
+         </div>
+    </div>
+</body>
+
+ </html>
